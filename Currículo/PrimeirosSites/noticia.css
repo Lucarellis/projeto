@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient(to right, rgba(0, 251, 255, 0.176), rgba(78, 78, 161, 0.244));
+    text-align: center;
+}
+
+.tabela {
+    text-align: center;
+    background-color: rgba(212, 26, 26, 0.808);
+    color:rgb(248, 248, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 200px;
+}
+
+.tabela tr td:hover{
+    font-size: 20px;
+    color:rgb(17, 18, 18);
+}
+
+.verde {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+section4{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pagina{
+    color: red;
+    text-decoration: none;
+}
+
+.pagina:hover{
+    text-decoration: underline;
+    color: rgb(38, 0, 255);
+}
+
+.titulo{
+    color:black;
+    background-color: rgba(255, 166, 0, 0.416);
+    font-size: 20px;
+}

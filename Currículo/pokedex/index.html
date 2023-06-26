@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel = "stylesheet" href = " https://fonts.cdnfonts.com/css/pokemon-solid ">
+    
+</head>
+<body>
+    <div class="painel">
+
+        <!-- position absolute: imagem fica por cima -->
+        <img style="position: absolute;left: 550px;" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" alt="">
+        <img style="position: absolute;right: 550px;" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" alt="">
+        <h1>Pokédex</h1>
+
+        <input type="text" id="entrada" placeholder="Digite um Pokémon...">    
+
+        <br>
+
+        <div class="pa">
+            <button class="botao" onclick="buscar()">Pesquisar</button>
+        <button class="botoes" onclick="anterior()">Anterior</button>
+        <button class="botoes" onclick="proximo()">Próximo</button>
+        </div>
+
+        <br><br>
+
+        <div id="tela">
+            
+        </div>
+        
+
+    </div>
+
+    <script src="sript.js"></script>
+</body>
+</html>

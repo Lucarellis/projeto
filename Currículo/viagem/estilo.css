@@ -1,0 +1,74 @@
+
+.fundo{
+    width: 100%;
+    height: calc(600px - 6px);
+    border-bottom: 6px solid orange;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;                 /*img de fundo ajustada*/
+    position: relative;                     /*posição nunca muda*/
+    background-attachment: fixed;           /*deixa imagem de fundo fixa*/
+    background-image: url( https://th.bing.com/th/id/R.499421d6f41bd84624837b2fa1716cd3?rik=f6%2fr0xBCmDa0gQ&pid=ImgRaw&r=0 );
+}
+
+.aviao{
+    width: 350px;
+    position: absolute;
+    right: -200px;
+    padding-top: 350px;
+}
+
+.card{
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 20px black;
+    transition: none;
+    height: 470px;
+}
+
+.card:hover{
+    width: 19rem !important;
+    transition: none;
+}
+
+.logo{
+    border-radius: 100px;
+}
+
+.carousel{
+    box-shadow: 2px 2px 20px black;
+}
+
+.rodape{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 6px solid orange;
+}
+
+a{
+    color: white !important;
+}
+
+.img-fluid{
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#informacao{
+    padding-top: 35px;
+    padding-right: 200px;
+}
+
+.preco{
+    font-size: 20px !important;
+    padding-top: 9px !important;
+    padding-bottom: 17px !important;
+    border: 1px solid orange !important;
+}
+
+.informacao2{
+    background-color: rgba(255, 255, 255, 0.436) !important;
+    border-radius: 10px;
+}

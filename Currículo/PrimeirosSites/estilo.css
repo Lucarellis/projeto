@@ -1,0 +1,50 @@
+/* esta é a parte da foto */
+
+.foto{
+    border: 6px solid rgb(20, 19, 19);
+    border-radius: 100%;
+}
+
+
+body{
+    background-image:linear-gradient(to right, #376a7b,#9fc7da,#5b5b77);
+    text-align: center;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.menu{
+    background-color:rgba(55, 54, 67, 0.494);
+    border-radius:15px; 
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    color:white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: rgba(215, 215, 223, 0.267);
+    font-size: 18px;
+}
+
+.tabela {
+    text-align: center;
+    background-color: rgba(13, 13, 180, 0.502);
+    color:white;
+    font-family: cursive;
+}
+
+.tabela tr td:hover{
+    font-size: 20px;
+    color:aquamarine;
+}

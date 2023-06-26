@@ -1,0 +1,10 @@
+.foto{
+    border:6px solid rgba(191, 218, 19, 0.101);
+    border-radius: 5%;
+}
+
+
+body{
+    background-image:linear-gradient(to right, #547d5c9d,#21495d71,#5d977fc3);
+    text-align: center;
+}

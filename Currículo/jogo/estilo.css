@@ -1,0 +1,109 @@
+.quadrado {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 150px;
+    border-radius: 10px;
+}
+
+.jogo {
+    background: rgba(233, 13, 13, 0.67);
+    color: rgb(255, 255, 255);
+    margin: 10px auto;
+    border: 5px solid gray;
+    border-radius: 7px;
+}
+
+body {
+    background-image: url(https://www.acasadocogumelo.com/wp-content/uploads/2019/03/FUNDO-SITE.png) ;
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+
+button{
+    background: rgba(255, 11, 11, 0.525);
+    border-radius: 10px;
+    font-size: 22px;
+    margin: 6px;
+    border: 5px solid;
+}
+
+#boi{
+    background: green;
+    border: 5px solid;
+}
+
+#bois{
+    background: orange;
+    border: 5px solid;
+}
+
+#boiis{
+    background: yellow;
+    border: 5px solid;
+}
+
+#a{
+    background: purple;
+    border: 5px solid;
+}
+
+#b{
+    background: black;
+    border: 5px solid;
+}
+
+#c{
+    background: blue;
+    border: 5px solid;
+}
+
+#d{
+    background: palevioletred;
+    border: 5px solid;
+}
+
+#e{
+    background: rgba(0, 255, 94, 0.992);
+    border: 5px solid;
+}
+
+#f{
+    background: rgb(113, 47, 11);
+    border: 5px solid;
+}
+
+span{
+    color:rgba(255, 255, 255, 0.865);
+    font-size: 35px;
+}
+
+.oi:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.nome{
+    color:white;
+}
+
+label{
+    color:white;
+}
+
+.oo:hover{
+    background-color: crimson;
+    color: white;
+}
+
+#nome{
+    border-radius: 5px;
+}
+

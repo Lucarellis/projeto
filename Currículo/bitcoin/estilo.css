@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/negociar-moedas-de-criptografia-de-moeda-bitcoin-exchanges-investir-acoes-do-metaverse_10221-15689.jpg?w=2000);
+    text-align: center;
+    padding-top: 70px;
+}
+
+h1, p{
+    color: white;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.painel{
+    border: 2px solid rgba(202, 202, 0, 0.633);
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(189, 183, 107, 0.33);
+    box-shadow: 5px 5px 10px rgba(255, 255, 0, 0.654);          /*sombra*/ 
+}
+
+
+button{
+    background-color: rgb(86, 116, 35);
+    color: white;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    width: 77px;
+    height: 31px;
+    font-size: 20px;
+}
+
+.botao:hover{
+    background-color: seagreen;
+    color: aliceblue;
+    border: 1px solid rgba(0, 0, 255, 0.559);
+    border-radius: 5px;
+}
+
+#moeda{
+    border-radius: 5px;
+    border: 1px solid blue;
+    background-color: rgb(224, 224, 224);
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    font-size: 19px;
+}
+
+img{
+    animation: rotacionar 5s infinite alternate;        /*Gira a imagem*/
+}
+@keyframes rotacionar {
+    0%{
+        transform: rotate3d(0,1,0, 0deg);
+    }
+    100%{
+        transform: rotate3d(0,1,0, 360deg);
+    }
+}
