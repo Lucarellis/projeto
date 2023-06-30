@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.e6suyNEXUTNhy5R0-5qimQHaDt?w=301&h=174&c=7&r=0&o=5&pid=1.7);
+    background-size: cover;
+}
+
+#gameCanvas{
+    border: 1px solid rgb(0, 0, 0);
+    width: 800px;
+    height: 600px;
+}
+
+.painel{
+    background-color: rgb(200, 200, 200);
+    width: 800px;
+    height: 600px;
+    margin: 40px auto; 
+    box-shadow: 5px 5px 20px white;
+    font-family: 'Enhanced LED Board-7', sem serifa;
+    font-family : 'Enhanced LED Board-7' , sem serifa ; 
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
