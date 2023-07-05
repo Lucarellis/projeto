@@ -1,6 +1,14 @@
 body{
     background-image: url(https://th.bing.com/th/id/OIP.e6suyNEXUTNhy5R0-5qimQHaDt?w=301&h=174&c=7&r=0&o=5&pid=1.7);
     background-size: cover;
+    text-align: center;
+}
+
+#ponto{
+    font-size: 25px;
+    margin: 0;
+    font-family: 'FFF Galaxy', sans-serif;
+    font-family: 'FFF Galaxy Extended', sans-serif;
 }
 
 #gameCanvas{
@@ -10,16 +18,55 @@ body{
 }
 
 .painel{
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(206, 206, 206);
     width: 800px;
     height: 600px;
     margin: 40px auto; 
     box-shadow: 5px 5px 20px white;
     font-family: 'Enhanced LED Board-7', sem serifa;
-    font-family : 'Enhanced LED Board-7' , sem serifa ; 
+    color: white;
 }
 
 h1{
     text-align: center;
     color: rgb(255, 255, 255);
+}   
+
+.gameover{
+    position: fixed;        /*fica fixo na tela*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+    display: none;
+}
+
+.mensagemGameover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);       /*Centraliza o gameover*/
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-family : 'Yunapixel' , sem serifa ; 
+}
+
+button{
+    background-color: rgba(255, 0, 0, 0.569);
+    border: 2px solid rgba(255, 255, 0, 0.564);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.653);
+    border: 2px solid rgba(255, 255, 0, 0.646);
+    
 }

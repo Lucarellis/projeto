@@ -3,36 +3,39 @@
 <head>
     <title>Tetris</title>
     <style>
+        body{
+            background-image: linear-gradient(to right, rgba(120, 0, 0, 0.769), rgba(87, 87, 87, 0.724) ) ;
+        }
+
         canvas {
-            border: 1px solid #000;
             display: block;
             margin: 0 auto;
-            border: 1px solid #000;
-            display: block;
-            margin: 0 auto;
+            padding-left: 815px;
         }
 
-        #scoreContainer {
+        .borda{
             color: white;
+            position: absolute;
+            padding-left: 1059px;
         }
 
-        #previousScoreContainer {
-            color: white;
-        }
-
-        .score-text {
-            color: white; /* Cor do texto do score */
+        .tudo{
+            position: fixed;
+            
         }
     </style>
 </head>
-<body style="background-image: url(https://th.bing.com/th/id/R.f6650b353a04a3643a0dcd90e210e363?rik=MBtAodHuIMx0DA&pid=ImgRaw&r=0);">
-    <canvas id="tetris" width="240" height="400"></canvas>
-    <div class="borda">
-        <div id="scoreContainer"><span class="score-text">Pontuação:</span> 0 </div>
-        <div id="previousScoreContainer">Pontuação Anterior: 0</div>
-        <button id="pauseButton" onclick="togglePause()">Pausar</button>
+<body>
+    <br><br><br><br><br>
+    <div class="tudo">
+        <div class="borda">
+            <div id="scoreContainer"><span class="score-text">Pontuação:</span> 0 </div>
+            <div id="previousScoreContainer">Pontuação Anterior: 0</div>
+            <button id="pauseButton" onclick="togglePause()">Pausar</button>
+        </div>
+    
+        <canvas id="tetris" width="240" height="400"></canvas>
     </div>
-
     <script>
         const canvas = document.getElementById('tetris');
         const context = canvas.getContext('2d');
