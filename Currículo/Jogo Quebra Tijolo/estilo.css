@@ -53,7 +53,7 @@ h1{
     font-family : 'Yunapixel' , sem serifa ; 
 }
 
-button{
+.derrota{
     background-color: rgba(255, 0, 0, 0.569);
     border: 2px solid rgba(255, 255, 0, 0.564);
     color: white;
@@ -65,8 +65,73 @@ button{
     font-family: fantasy;
 }
 
-button:hover{
+.derrota:hover{
     background-color: rgba(255, 0, 0, 0.653);
     border: 2px solid rgba(255, 255, 0, 0.646);
-    
+}
+
+.vitoria{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(0, 106, 0), rgb(0, 146, 0), rgb(0, 106, 0));
+    z-index: 9999;
+    display: none;
+}
+
+.mensagemVitoria{
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(222, 222, 222);
+    font-size: 50px;
+    text-align: center;
+    animation: ampliar 4s alternate infinite;               /*faz ampliar a imagem*/
+    font-family: 'Æ Systematic TT BRK', sans-serif;
+}
+@keyframes ampliar {
+    0% { font-size: 50px; color: aliceblue; }
+    100% { font-size: 60px; color: rgb(255, 255, 255);}
+}
+
+.ganhou{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.ganhou:hover{
+    background-color: rgb(37, 37, 37);
+    border: 2px solid rgba(0, 0, 0, 0.246);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.botao{
+    background-color: black;
+    color: white;
+    border: 1px solid aliceblue;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'FFF Galaxy', sans-serif;
+    font-family: 'FFF Galaxy Extended', sans-serif;
+}
+
+.botao:hover{
+    font-size: 22px;
 }

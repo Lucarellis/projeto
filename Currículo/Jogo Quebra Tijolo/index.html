@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo Quebra Tijolos</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href=" https://fonts.cdnfonts.com/css/enhanced-led-board-7 ">
-    <link rel="stylesheet" href = " https://fonts.cdnfonts.com/css/yunapixel ">
-    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/fff-galaxy">
+    <link rel="stylesheet" href="estilo.css"                                            >
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/enhanced-led-board-7 "  >
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/yunapixel "             >
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/fff-galaxy"             >
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/ae-systematic-tt-brk"   >
+                
 </head>
-
 <body>
 
     <div class="painel">
-        <canvas id="gameCanvas" width="600" height="400"> </canvas>
+        <canvas id="gameCanvas" width="600" height="400 "> </canvas>
         <br><br><br>
-        <p id="ponto">Score: 0</p>
-        <h1>Jogo Quebra Tijolos</h1>
+        <p id="ponto"> Score: 0 </p>
+        <h1> Jogo Quebra Tijolos </h1>
+        
+        <div class="botoes">
+            <button class="botao" onclick="facil()"> Fácil                      </button>
+            <button class="botao" onclick="medio()"> Médio                      </button>
+            <button class="botao" onclick="dificil()"> Difícil                  </button>
+            <button class="botao" onclick="impossivel()"> Impossível            </button>
+        </div>
+
     </div>
 
     <div class="gameover" id="gameover">
         <div class="mensagemGameover">
             Game Over!
             <br>
-            <div>
-                <button onclick="reiniciar()">Jogar Novamente?</button>
-            </div>
+                <button class="derrota" onclick="reiniciar()">Jogar Novamente?  </button>
+        </div>
+    </div>
+
+    <div class="vitoria" id="vitoria">
+        <div class="mensagemVitoria">
+            Parabéns, você é muito viciado! <br> 😎🎮
+            <br><br>
+            <button class="ganhou" onclick="reiniciar()">Jogar Novamente?       </button>
+
         </div>
     </div>
 
